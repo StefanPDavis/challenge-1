@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header has the name and the links at the top of the page */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +52,8 @@ p {
     font-size: 16px;
 }
 
+/* hero is the big picture taking most of the space on the page */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +62,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* floats organize the product content text and pictures left to right or right to left */
 
 .float-left {
     float: left;
@@ -74,6 +80,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* benefit classes govern the content on the bottom right side */
 
 .benefits {
     margin-right: 20px;
@@ -99,6 +107,8 @@ p {
     max-width: 150px;
 }
 
+/* product classes govern the content on the bottom middle */
+
 .product {
     margin-bottom: 20px;
     padding: 50px;
@@ -116,6 +126,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* footer is at the very bottom */
 
 .footer {
     padding: 30px;
